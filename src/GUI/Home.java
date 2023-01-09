@@ -53,6 +53,7 @@ public class Home extends javax.swing.JFrame {
         jLabel8 = new javax.swing.JLabel();
 
         setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
+        setTitle("Home Pengirim");
 
         jPanel1.setBackground(new java.awt.Color(244, 244, 246));
         jPanel1.setLayout(null);
@@ -242,7 +243,7 @@ public class Home extends javax.swing.JFrame {
     private void btnbayarMouseClicked(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_btnbayarMouseClicked
         // TODO add your handling code here:
         this.setVisible(false);
-        new MetodePembayaran().setVisible(true);
+        new Pembayaran().setVisible(true);
     }//GEN-LAST:event_btnbayarMouseClicked
 
     /**

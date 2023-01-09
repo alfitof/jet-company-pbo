@@ -85,6 +85,10 @@ public class User extends javax.swing.JFrame {
         jLabel16 = new javax.swing.JLabel();
         pembayaran_rbReguler = new javax.swing.JRadioButton();
         pembayaran_rbExpress = new javax.swing.JRadioButton();
+        panel_riwayatTransaksi = new javax.swing.JPanel();
+        jScrollPane3 = new javax.swing.JScrollPane();
+        riwayatTransaksi_tblRiwayat = new javax.swing.JTable();
+        riwayatTransaksi_btnLihatDetail = new javax.swing.JButton();
         panel_tracking = new javax.swing.JPanel();
         jLabel14 = new javax.swing.JLabel();
         tracking_idTransaksi = new javax.swing.JTextField();
@@ -94,10 +98,6 @@ public class User extends javax.swing.JFrame {
         tracking_btnUbahStatus = new javax.swing.JButton();
         tracking_cbUbahStatus = new javax.swing.JComboBox<>();
         tracking_btnSubmit = new javax.swing.JButton();
-        panel_riwayatTransaksi = new javax.swing.JPanel();
-        jScrollPane3 = new javax.swing.JScrollPane();
-        riwayatTransaksi_tblRiwayat = new javax.swing.JTable();
-        riwayatTransaksi_btnLihatDetail = new javax.swing.JButton();
         jLabel4 = new javax.swing.JLabel();
 
         frame_detailTransaksi.setLocation(new java.awt.Point(100, 100));
@@ -403,6 +403,47 @@ public class User extends javax.swing.JFrame {
 
         jTabbedPane1.addTab("Pembayaran", panel_pembayaran);
 
+        riwayatTransaksi_tblRiwayat.setModel(new javax.swing.table.DefaultTableModel(
+            new Object [][] {
+
+            },
+            new String [] {
+                "ID Transaksi", "Pengirim", "Penerima", "Alamat Tujuan", "Jenis Pengiriman", "Total Harga", "Pembayaran", "Tanggal Transaksi"
+            }
+        ));
+        jScrollPane3.setViewportView(riwayatTransaksi_tblRiwayat);
+
+        riwayatTransaksi_btnLihatDetail.setText("Lihat Detail");
+        riwayatTransaksi_btnLihatDetail.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                riwayatTransaksi_btnLihatDetailActionPerformed(evt);
+            }
+        });
+
+        javax.swing.GroupLayout panel_riwayatTransaksiLayout = new javax.swing.GroupLayout(panel_riwayatTransaksi);
+        panel_riwayatTransaksi.setLayout(panel_riwayatTransaksiLayout);
+        panel_riwayatTransaksiLayout.setHorizontalGroup(
+            panel_riwayatTransaksiLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+            .addGroup(panel_riwayatTransaksiLayout.createSequentialGroup()
+                .addContainerGap()
+                .addGroup(panel_riwayatTransaksiLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                    .addComponent(jScrollPane3, javax.swing.GroupLayout.DEFAULT_SIZE, 617, Short.MAX_VALUE)
+                    .addGroup(panel_riwayatTransaksiLayout.createSequentialGroup()
+                        .addComponent(riwayatTransaksi_btnLihatDetail)
+                        .addGap(0, 0, Short.MAX_VALUE)))
+                .addContainerGap())
+        );
+        panel_riwayatTransaksiLayout.setVerticalGroup(
+            panel_riwayatTransaksiLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+            .addGroup(panel_riwayatTransaksiLayout.createSequentialGroup()
+                .addComponent(jScrollPane3, javax.swing.GroupLayout.PREFERRED_SIZE, 377, javax.swing.GroupLayout.PREFERRED_SIZE)
+                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                .addComponent(riwayatTransaksi_btnLihatDetail)
+                .addGap(0, 74, Short.MAX_VALUE))
+        );
+
+        jTabbedPane1.addTab("Riwayat Transaksi", panel_riwayatTransaksi);
+
         panel_tracking.setName("Tracking"); // NOI18N
 
         jLabel14.setText("ID Transaksi :");
@@ -484,47 +525,6 @@ public class User extends javax.swing.JFrame {
         );
 
         jTabbedPane1.addTab("Tracking", panel_tracking);
-
-        riwayatTransaksi_tblRiwayat.setModel(new javax.swing.table.DefaultTableModel(
-            new Object [][] {
-
-            },
-            new String [] {
-                "ID Transaksi", "Pengirim", "Penerima", "Alamat Tujuan", "Jenis Pengiriman", "Total Harga", "Pembayaran", "Tanggal Transaksi"
-            }
-        ));
-        jScrollPane3.setViewportView(riwayatTransaksi_tblRiwayat);
-
-        riwayatTransaksi_btnLihatDetail.setText("Lihat Detail");
-        riwayatTransaksi_btnLihatDetail.addActionListener(new java.awt.event.ActionListener() {
-            public void actionPerformed(java.awt.event.ActionEvent evt) {
-                riwayatTransaksi_btnLihatDetailActionPerformed(evt);
-            }
-        });
-
-        javax.swing.GroupLayout panel_riwayatTransaksiLayout = new javax.swing.GroupLayout(panel_riwayatTransaksi);
-        panel_riwayatTransaksi.setLayout(panel_riwayatTransaksiLayout);
-        panel_riwayatTransaksiLayout.setHorizontalGroup(
-            panel_riwayatTransaksiLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addGroup(panel_riwayatTransaksiLayout.createSequentialGroup()
-                .addContainerGap()
-                .addGroup(panel_riwayatTransaksiLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                    .addComponent(jScrollPane3, javax.swing.GroupLayout.DEFAULT_SIZE, 617, Short.MAX_VALUE)
-                    .addGroup(panel_riwayatTransaksiLayout.createSequentialGroup()
-                        .addComponent(riwayatTransaksi_btnLihatDetail)
-                        .addGap(0, 0, Short.MAX_VALUE)))
-                .addContainerGap())
-        );
-        panel_riwayatTransaksiLayout.setVerticalGroup(
-            panel_riwayatTransaksiLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addGroup(panel_riwayatTransaksiLayout.createSequentialGroup()
-                .addComponent(jScrollPane3, javax.swing.GroupLayout.PREFERRED_SIZE, 377, javax.swing.GroupLayout.PREFERRED_SIZE)
-                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                .addComponent(riwayatTransaksi_btnLihatDetail)
-                .addGap(0, 74, Short.MAX_VALUE))
-        );
-
-        jTabbedPane1.addTab("Riwayat Transaksi", panel_riwayatTransaksi);
 
         jLabel4.setFont(new java.awt.Font("Tahoma", 1, 14)); // NOI18N
         jLabel4.setText("Operator");
