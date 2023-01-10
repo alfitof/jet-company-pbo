@@ -3,17 +3,20 @@
     <editor-bookmarks xmlns="http://www.netbeans.org/ns/editor-bookmarks/2" lastBookmarkId="0"/>
     <open-files xmlns="http://www.netbeans.org/ns/projectui-open-files/2">
         <group>
-            <file>file:/C:/FITO/Prg.%20Language/Java/cobaak/src/cobaak/Barang.java</file>
-            <file>file:/C:/FITO/Prg.%20Language/Java/cobaak/src/cobaak/Transaksi.java</file>
-            <file>file:/C:/FITO/Prg.%20Language/Java/cobaak/src/GUI/Register.java</file>
-            <file>file:/C:/FITO/Prg.%20Language/Java/cobaak/src/cobaak/Pengirim.java</file>
-            <file>file:/C:/FITO/Prg.%20Language/Java/cobaak/src/GUI/Home.java</file>
-            <file>file:/C:/FITO/Prg.%20Language/Java/cobaak/src/cobaak/DetailTransaksi.java</file>
-            <file>file:/C:/FITO/Prg.%20Language/Java/cobaak/src/GUI/Login.java</file>
-            <file>file:/C:/FITO/Prg.%20Language/Java/cobaak/src/cobaak/admin.java</file>
-            <file>file:/C:/FITO/Prg.%20Language/Java/cobaak/src/cobaak/server.java</file>
-            <file>file:/C:/FITO/Prg.%20Language/Java/cobaak/src/GUI/InputBarang.java</file>
-            <file>file:/C:/FITO/Prg.%20Language/Java/cobaak/src/GUI/CekResi.java</file>
+            <file>file:/C:/FITO/Prg.%20Language/Java/Tubes_Kel6/src/GUI/InputBarang.java</file>
+            <file>file:/C:/FITO/Prg.%20Language/Java/Tubes_Kel6/src/GUI/TambahDataPengirim.java</file>
+            <file>file:/C:/FITO/Prg.%20Language/Java/Tubes_Kel6/src/GUI/HapusBarang.java</file>
+            <file>file:/C:/FITO/Prg.%20Language/Java/Tubes_Kel6/src/GUI/Home.java</file>
+            <file>file:/C:/FITO/Prg.%20Language/Java/Tubes_Kel6/src/Tubes_Kel6/Kurir.java</file>
+            <file>file:/C:/FITO/Prg.%20Language/Java/Tubes_Kel6/src/GUI/ConfirmStatus.java</file>
+            <file>file:/C:/FITO/Prg.%20Language/Java/Tubes_Kel6/src/GUI/CekResi.java</file>
+            <file>file:/C:/FITO/Prg.%20Language/Java/Tubes_Kel6/src/Tubes_Kel6/detailBarang.java</file>
+            <file>file:/C:/FITO/Prg.%20Language/Java/Tubes_Kel6/src/GUI/Pembayaran.java</file>
+            <file>file:/C:/FITO/Prg.%20Language/Java/Tubes_Kel6/src/Tubes_Kel6/Pengirim.java</file>
+            <file>file:/C:/FITO/Prg.%20Language/Java/Tubes_Kel6/src/Tubes_Kel6/Barang.java</file>
+            <file>file:/C:/FITO/Prg.%20Language/Java/Tubes_Kel6/src/Tubes_Kel6/JET_COMPANY.java</file>
+            <file>file:/C:/FITO/Prg.%20Language/Java/Tubes_Kel6/src/Tubes_Kel6/admin.java</file>
+            <file>file:/C:/FITO/Prg.%20Language/Java/Tubes_Kel6/src/Tubes_Kel6/Transaksi.java</file>
         </group>
     </open-files>
 </project-private>
